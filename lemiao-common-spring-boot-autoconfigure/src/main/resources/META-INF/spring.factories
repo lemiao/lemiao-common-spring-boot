@@ -1,0 +1,10 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.lemiao.common.rest.autoconfig.HttpClientAutoConfiguration,\
+  com.lemiao.common.thread.autoconfig.ThreadPoolAutoConfiguration,\
+  com.lemiao.common.rest.autoconfig.RestTemplateAutoConfiguration,\
+  com.lemiao.common.dingding.autoconfig.DingDingClientAutoConfiguration,\
+  com.lemiao.common.leaf.autoconfig.LeafAutoConfiguration,\
+  com.lemiao.common.leaf.autoconfig.MybatisPlusIdGeneratorAutoConfiguration,\
+  com.lemiao.common.healthcheck.autoconfig.StarterNoticeAutoConfiguration
+  
